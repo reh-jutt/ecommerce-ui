@@ -4,6 +4,7 @@ import messagesvector from '../assets/Headers-vector-icons/messagesvector.svg'
 import myorder from '../assets/Headers-vector-icons/myorder.svg'
 import cartvector from '../assets/Headers-vector-icons/cartvector.svg'
 import bottom_arrow from '../assets/Headers-vector-icons/bottom_arrow.svg'
+import HeroSection from '../components/HeroSection'
 
 export default function Header() {
   return (
@@ -60,15 +61,6 @@ export default function Header() {
     </header>
      <div className="w-full h-px bg-gray-400"></div>
 
-     {/* <div className='w-[80%] mx-auto flex justify-between items-center'>
-     <div className='w-[70%] mx-auto'> 
-      <img src={menu} alt="manu" className="w-6 h-6" />
-     </div>
-     <div className='w-[30%] mx-auto'> 
-      
-     </div>
-     </div> */}
-
 <div class="bg-white py-2 border-b">
   <div class="container mx-auto w-[80%] flex justify-between items-center text-sm">
     
@@ -104,7 +96,7 @@ export default function Header() {
   </div>
 </div>
 
-
+<HeroSection/>
     </>
   );
 }
